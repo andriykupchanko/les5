@@ -129,3 +129,33 @@
 
 // } while (i < 2);
 // console.log(personalMovieDb);
+
+
+function showMesage(text) {
+    console.log(text);
+}
+showMesage("salam");
+
+// function calc(a, b) {
+//     return (a + b);
+// }
+// console.log(calc(123, 34));
+// console.log(calc(12, 14));
+
+function ret() {
+    let num = 30;
+    return num;
+}
+const enotherNum = ret();
+console.log(enotherNum);
+
+let fas = function() {
+    console.log("Hey");
+};
+fas();
+
+const calc = (a, b) => {
+    return a + b;
+}
+
+console.log(calc(2, 3));
