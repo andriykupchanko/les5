@@ -13,7 +13,7 @@ const LastMovie = prompt("How wathch the last films ?", ""),
 
 personalMovieDb.movies[LastMovie] = RatengMovie;
 
-console.log(personalMovieDb);*/
+console.log(personalMovieDb);
 
 if (4 == 5) {
     console.log("you lox");
@@ -42,4 +42,24 @@ switch (num) {
     default:
         console.log("Its Ok.");
         break;
+}*/
+
+let num = 50;
+
+// while (num <= 55) {
+//     console.log(num);
+//     num++;
+// }
+// do{
+//     console.log(num);
+//     num++;
+// }while(num<=55);
+
+for (let i = 0; i < 8; i++) {
+    if (i === 6) {
+        // break;
+        continue;
+    }
+    console.log(i);
+
 }
